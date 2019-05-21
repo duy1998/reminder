@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Task_Notification</string>
+    <string name="SFUIText_Regular" translatable="false">fonts/SFUIText-Regular.otf</string>
+    <string name="SFUIText_Semibold" translatable="false">fonts/SFUIText-Semibold.otf</string>
+    <string name="text_time_one_minute_ago">1 minute ago</string>
+    <string name="text_time_minute_ago">minutes ago</string>
+    <string name="text_time_hour_ago">hours ago</string>
+    <string name="text_time_one_hour_ago">1 hour ago</string>
+    <string name="text_time_day_ago">days ago</string>
+    <string name="text_time_one_day_ago">1 day ago</string>
+    <string name="connection_failed_messages">Không có kết nối mạng</string>
+    <string name="reminder_empty_messages"><![CDATA[Những người bạn theo dõi hiện giờ không Live]]></string>
+    <string name="reminder_search_more">Go following</string>
+    <string name="reminder_retry">Thử lại</string>
+    <string name="reminder_title_tollbar">Thông báo</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="ratio" format="float" />
+    <attr name="defaultWidth" format="dimension" />
+    <attr name="defaultHeight" format="dimension" />
+    <attr name="autoStart" format="boolean" />
+
+
+    <!-- AutoImageSwitcher -->
+    <declare-styleable name="AutoImageSwitcher">
+        <attr name="delayAnimation" format="integer|reference" />
+        <attr name="inAnimation" format="reference" />
+        <attr name="outAnimation" format="reference" />
+        <attr name="images" format="reference" />
+    </declare-styleable>
+
+
+    <!-- live_icon_animate_view -->
+    <declare-styleable name="live_icon_animate_view">
+        <attr name="innerColor" format="color" />
+        <attr name="outerColor" format="color" />
+    </declare-styleable>
+
+    <!-- CircleImageView -->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <!-- ImageSliderLayout -->
+    <declare-styleable name="ImageSliderLayout">
+        <attr name="aspectRatio" format="float" />
+        <attr name="autoSlideDuration" format="integer|reference" />
+        <attr name="autoSlide" format="boolean" />
+    </declare-styleable>
+
+    <!-- PagerIndicator -->
+    <declare-styleable name="PagerIndicator">
+        <attr name="margin" format="integer|reference" />
+        <attr name="radius" format="integer|reference" />
+        <attr name="selectedRadius" format="dimension|reference" />
+        <attr name="selectedColor" format="color|reference" />
+        <attr name="unselectedColor" format="color|reference" />
+    </declare-styleable>
+
+    <!-- ProgressLayout -->
+    <declare-styleable name="ProgressLayout">
+        <attr name="showLoadingText" format="boolean" />
+        <attr name="loadingText" format="string|reference" />
+    </declare-styleable>
+
+    <!-- CountSuffixTextView -->
+    <declare-styleable name="CountSuffixTextView">
+        <attr name="initValue" format="integer" />
+    </declare-styleable>
+
+    <!-- HomeFeedLayout -->
+    <declare-styleable name="HomeFeedLayout">
+        <attr name="ratio" />
+        <attr name="defaultWidth" />
+        <attr name="defaultHeight" />
+    </declare-styleable>
+
+    <!-- ProfileDetailHeaderLayout -->
+    <declare-styleable name="ProfileDetailHeaderLayout">
+        <attr name="coverAspectRatio" format="float" />
+    </declare-styleable>
+
+    <!-- Sliding Up Layout -->
+    <declare-styleable name="SlidingLayout">
+        <attr name="set_beyond_at_first" format="boolean" />
+    </declare-styleable>
+
+    <!-- Heart layout -->
+    <declare-styleable name="HeartsLayout">
+        <attr name="initX" format="dimension" />
+        <attr name="initY" format="dimension" />
+        <attr name="xRand" format="dimension" />
+        <attr name="animLengthRand" format="dimension" />
+        <attr name="xPointFactor" format="dimension" />
+        <attr name="animLength" format="dimension" />
+        <attr name="heart_width" format="dimension" />
+        <attr name="heart_height" format="dimension" />
+        <attr name="local_heart_width" format="dimension" />
+        <attr name="local_heart_height" format="dimension" />
+        <attr name="bezierFactor" format="integer" />
+        <attr name="anim_duration" format="integer" />
+        <attr name="local_anim_duration" format="integer" />
+    </declare-styleable>
+
+    <!-- Stream tab layout -->
+    <declare-styleable name="TextViewCountdown">
+        <attr name="text_size_start" format="float|reference" />
+        <attr name="text_size_end" format="float|reference" />
+        <attr name="duration" format="integer|reference" />
+        <attr name="count_number" format="integer|reference" />
+    </declare-styleable>
+
+    <!-- Live icon -->
+    <!--<declare-styleable name="LiveIconView">-->
+        <!--<attr name="columnRadius" format="dimension|reference" />-->
+        <!--<attr name="columnSpacing" format="dimension|reference" />-->
+        <!--<attr name="iconColor" format="color|reference" />-->
+        <!--<attr name="maxColumnHeight" format="dimension|reference" />-->
+        <!--<attr name="minColumnHeight" format="dimension|reference" />-->
+    <!--</declare-styleable>-->
+
+    <!-- Live indicator view -->
+    <declare-styleable name="LiveIndicatorView">
+        <attr name="columnRadius" format="dimension|reference" />
+        <attr name="columnSpacing" format="dimension|reference" />
+        <attr name="iconColor" format="color|reference" />
+        <attr name="maxColumnHeight" format="dimension|reference" />
+        <attr name="minColumnHeight" format="dimension|reference" />
+        <attr name="countColumn" format="integer" />
+    </declare-styleable>
+
+    <!-- Empty data layout -->
+    <declare-styleable name="EmptyDataLayout">
+        <attr name="empty_icon" format="integer|reference" />
+        <attr name="text" format="string|reference" />
+        <attr name="fontPath" />
+    </declare-styleable>
+
+    <!-- Custom zxing attributes -->
+    <declare-styleable name="ZViewFinderView">
+        <attr name="zxing_result_view" format="color" />
+        <attr name="zxing_viewfinder_laser" format="color" />
+        <attr name="zxing_viewfinder_mask" format="color" />
+        <attr name="zxing_possible_result_points" format="color" />
+        <attr name="zxing_focal_rect_color" format="color" />
+        <attr name="zxing_focal_rect_stroke_size" format="dimension" />
+        <attr name="zxing_laser_stroke_size" format="dimension" />
+    </declare-styleable>
+
+    <!-- Squared card view-->
+    <declare-styleable name="SquaredCardView">
+        <attr name="baseDimension">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Reminder icon -->
+    <declare-styleable name="ReminderIconView">
+        <attr name="src_state_on" format="integer|reference" />
+        <attr name="src_state_off" format="integer|reference" />
+    </declare-styleable>
+
+    <!-- Home Tab layout-->
+    <declare-styleable name="HomeTabLayout">
+        <attr name="extra_indicator_width" format="dimension" />
+        <attr name="animation_duration" format="integer" />
+    </declare-styleable>
+
+    <!-- Watch live progress bar-->
+    <declare-styleable name="GroupMissionProgressBar">
+        <attr name="group_mission_progress_text" format="string" />
+        <attr name="progress" format="float" />
+    </declare-styleable>
+
+    <!-- OutlineTextView -->
+    <declare-styleable name="OutlineTextView">
+        <attr name="stroke_width" format="dimension|reference"/>
+        <attr name="stroke_color" format="color|reference"/>
+    </declare-styleable>
+
+    <!-- Conversation header-->
+    <declare-styleable name="ConversationHeaderRow">
+        <attr name="conversation_header_icon" format="integer|reference"/>
+        <attr name="conversation_header_title" format="string|reference"/>
+    </declare-styleable>
+
+    <!-- VideoFeedLayout -->
+    <declare-styleable name="VideoFeedLayout">
+        <attr name="ratio" />
+        <attr name="defaultWidth" />
+        <attr name="defaultHeight" />
+    </declare-styleable>
+
+    <!--Loading Video Bar-->
+    <declare-styleable name="LoadingVideoBar">
+        <attr name="speed" format="float"/>
+    </declare-styleable>
+
+
+    <!-- Gift suggestion progress -->
+    <declare-styleable name="GiftSuggestionProgress">
+        <attr name="progressDrawable" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="LivePriorityAvatarLayout">
+        <attr name="ratio"/>
+        <attr name="maxHeight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="EventBadgeView">
+        <attr name="iconSize" format="dimension"/>
+    </declare-styleable>
+
+    <!-- Showtime Loading -->
+    <declare-styleable name="ShowtimeLoadingLayout">
+        <attr name="loadingAnimationSrc" format="integer|reference" />
+        <attr name="autoStart"/>
+    </declare-styleable>
+</resources>
